@@ -5,6 +5,8 @@ import { MenubarModule } from 'primeng/menubar';
 import { CardModule } from 'primeng/card';
 import { FieldsetModule } from 'primeng/fieldset';
 import { PanelModule } from 'primeng/panel';
+import { ToolbarModule } from 'primeng/toolbar';
+import { SplitButtonModule } from 'primeng/splitbutton';
 //Se crea este modulo para poner todo lo que se necesita en uno solo y luego si usarlo
 //en toda la app exportandolos
 @NgModule({
@@ -16,6 +18,8 @@ import { PanelModule } from 'primeng/panel';
     CardModule,
     FieldsetModule,
     PanelModule,
+    ToolbarModule,
+    SplitButtonModule,
   ],
 })
 export class PrimeNgModule {}
