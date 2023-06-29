@@ -38,4 +38,11 @@ export class UncommonPageComponent {
   deleteClient(): void {
     this.clients.shift();
   }
+
+  //Key value par
+  public person = {
+    name: 'Bryan',
+    age: 25,
+    address: 'Cali, Colombia',
+  };
 }
